@@ -956,7 +956,6 @@ GameObject:
   m_Component:
   - component: {fileID: 354127258}
   - component: {fileID: 354127259}
-  - component: {fileID: 354127260}
   m_Layer: 5
   m_Name: Slider - Volume
   m_TagString: Untagged
@@ -1038,7 +1037,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 354127260}
+      - m_Target: {fileID: 1987675065}
         m_TargetAssemblyTypeName: SettingsRunner, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
@@ -1050,19 +1049,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &354127260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354127257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c785a566de9cf44b21e6bfdb49f014, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: 39f6feebe568ebc46b986f8a9c516925, type: 2}
 --- !u!1 &367150551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4442,6 +4428,7 @@ GameObject:
   - component: {fileID: 1987675062}
   - component: {fileID: 1987675061}
   - component: {fileID: 1987675064}
+  - component: {fileID: 1987675065}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -4515,6 +4502,21 @@ MonoBehaviour:
   tutorial: {fileID: 1102604584}
   settings: {fileID: 1147020239}
   loadingScreen: {fileID: 815938977}
+  settingsRunner: {fileID: 1987675065}
+--- !u!114 &1987675065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987675060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c785a566de9cf44b21e6bfdb49f014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 39f6feebe568ebc46b986f8a9c516925, type: 2}
+  volSlider: {fileID: 354127259}
 --- !u!1 &2076466302
 GameObject:
   m_ObjectHideFlags: 0

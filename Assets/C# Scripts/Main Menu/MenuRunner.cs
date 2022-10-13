@@ -9,7 +9,8 @@ public class MenuRunner : MonoBehaviour
     public GameObject tutorial;
     public GameObject settings;
     public GameObject loadingScreen;
-    
+    public SettingsRunner settingsRunner;
+
     private bool escKeyEnabled = true;
     
     void Start()
@@ -17,6 +18,7 @@ public class MenuRunner : MonoBehaviour
         escKeyEnabled = true;
         ShowMainMenu();
         loadingScreen.SetActive(false);
+        settingsRunner.LoadVolume();
     }
 
     void Update() // This should only be used for input
@@ -34,8 +36,12 @@ public class MenuRunner : MonoBehaviour
     
     void CloseAllMenus()
     {
+        if (settings.activeSelf) // if exiting settings menu
+        {
+            PlayerPrefs.Save(); // save settings to file
+            settings.SetActive(false);
+        }
         tutorial.SetActive(false);
-        settings.SetActive(false);
     }
 
     public void ShowTutorial()
@@ -60,9 +66,7 @@ public class MenuRunner : MonoBehaviour
     {
         Debug.Log("Starting game");
         escKeyEnabled = false;
-        
-        // show loading screen
-        loadingScreen.SetActive(true);
+        loadingScreen.SetActive(true); // show loading screen
         
         // if save game exists, go to gameplay
         // else, go to player and name select
