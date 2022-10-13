@@ -13,6 +13,7 @@ using UnityEngine.UI;
 public class SettingsRunner : MonoBehaviour
 {
     public AudioMixer mixer;
+    
     public Slider volSlider;
 
     public void SetVolume(float volumeLevel) // volumeLevel is 0.0001 - 1
