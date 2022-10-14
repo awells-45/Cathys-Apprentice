@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,9 +18,16 @@ public class BrightnessSetter : MonoBehaviour
     private AutoExposure exposure;
     void Start()
     {
-        brightness.TryGetSettings(out exposure);
-        brightnessSlider.value = PlayerPrefs.GetFloat("brightness", 1); // load settings into the slider
-        SetBrightness(brightnessSlider.value);
+        try
+        {
+            brightness.TryGetSettings(out exposure);
+            brightnessSlider.value = PlayerPrefs.GetFloat("brightness", 1); // load settings into the slider
+            SetBrightness(brightnessSlider.value);
+        }
+        catch (Exception ex) 
+        {
+            // no slider (not in settings)
+        }
     }
 
     public void SetBrightness(float brightnessLevel)
