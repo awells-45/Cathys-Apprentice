@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.SceneManagement;
 
 /* References:
  * https://www.youtube.com/watch?v=XiJ-kb-NvV4
@@ -18,15 +19,11 @@ public class BrightnessSetter : MonoBehaviour
     private AutoExposure exposure;
     void Start()
     {
-        try
+        if (SceneManager.GetActiveScene().name == "MainMenu")
         {
             brightness.TryGetSettings(out exposure);
             brightnessSlider.value = PlayerPrefs.GetFloat("brightness", 1); // load settings into the slider
             SetBrightness(brightnessSlider.value);
-        }
-        catch (Exception ex) 
-        {
-            // no slider (not in settings)
         }
     }
 

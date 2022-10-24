@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MenuRunner : MonoBehaviour
 {
@@ -10,23 +10,23 @@ public class MenuRunner : MonoBehaviour
     public GameObject settings;
     public GameObject loadingScreen;
     public SettingsRunner settingsRunner;
+    public AudioSource buttonSoundSource;
 
-    private bool escKeyEnabled = true;
-    
     void Start()
     {
-        escKeyEnabled = true;
         ShowMainMenu();
         loadingScreen.SetActive(false);
         settingsRunner.LoadVolume();
     }
-
-    void Update() // This should only be used for input
+    
+    private void OnEnable()
     {
-        if (Input.GetKey(KeyCode.Escape) && (escKeyEnabled == true))
-        {
-            ShowMainMenu();
-        }
+        InputHandler.OnEscPress += ShowMainMenu;
+    }
+
+    private void OnDisable()
+    {
+        InputHandler.OnEscPress -= ShowMainMenu;
     }
 
     public void ShowMainMenu()
@@ -65,10 +65,20 @@ public class MenuRunner : MonoBehaviour
     public void StartGame()
     {
         Debug.Log("Starting game");
-        escKeyEnabled = false;
         loadingScreen.SetActive(true); // show loading screen
-        
-        // if save game exists, go to gameplay
-        // else, go to player and name select
+
+        if (PlayerPrefs.GetInt("saveExists") == 1) // if save game exists, go to gameplay
+        {
+            SceneManager.LoadScene("Gameplay");
+        }
+        else // if there is no existing save, go to player and name select
+        {
+            SceneManager.LoadScene("CharacterEntry");
+        }
+    }
+
+    public void PlayButtonSound()
+    {
+        buttonSoundSource.Play(0);
     }
 }
