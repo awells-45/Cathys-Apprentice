@@ -2,19 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*References:
+ * https://www.youtube.com/watch?v=t6e2MvEG0Tc
+ * https://www.youtube.com/watch?v=Z2KmfduirfU
+ */
+
 public class PlayerController : MonoBehaviour
 {
-    //public float speed = .01f;
-    //void Update()
-    //{
-    //    float xDirection = Input.GetAxis("Horizontal");
-    //    float zDirection = Input.GetAxis("Vertical");
-
-    //    Vector3 moveDirection = new Vector3(xDirection, 0.0f, zDirection);
-    //    transform.position += moveDirection * speed; 
-    //}
-
-
     public float speed;
     public float rotationSpeed;
 
@@ -25,7 +19,7 @@ public class PlayerController : MonoBehaviour
         characterController = GetComponent<CharacterController>();
     }
 
-    void Update()
+    void Update() // this should be edited to use the input controller
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
@@ -42,8 +36,3 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
-
-/*Reference:
- * https://www.youtube.com/watch?v=t6e2MvEG0Tc
- * https://www.youtube.com/watch?v=Z2KmfduirfU
- */
