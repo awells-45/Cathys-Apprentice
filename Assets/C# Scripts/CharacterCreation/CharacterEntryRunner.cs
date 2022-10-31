@@ -23,6 +23,8 @@ public class CharacterEntryRunner : TextPlayer
     void Start()
     {
         NextState();
+        PlayerPrefs.DeleteKey("playerName"); // delete old settings
+        PlayerPrefs.DeleteKey("playerModel");
     }
 
     private void OnEnable()
@@ -94,10 +96,18 @@ public class CharacterEntryRunner : TextPlayer
         SceneManager.LoadScene("Gameplay");
     }
 
-    void SetPlayerName(string playerName) // FIXME   - this needs to get called somewhere !!!!!!!!!!!!!!!!!!!!!!!!!!
+    public void SetPlayerName(string playerName)
     {
         PlayerPrefs.SetString("playerName", playerName);
+    }
+
+    public void ConfirmPlayerName()
+    {
         PlayerPrefs.Save();
+        if (PlayerPrefs.HasKey("playerName") || (PlayerPrefs.GetString("playerName") != "")) // checking for valid player name
+        {
+            NextState();
+        }
     }
     
     public void SetPlayerModel(int playerModel)

@@ -14,6 +14,7 @@ public class InputHandler : MonoBehaviour
     public static OnInput OnPPress;
     public static OnInput OnBPress;
     public static OnInput OnMPress;
+    public static OnInput OnHPress;
     public static OnInput OnUpPress;
     public static OnInput OnDownPress;
     public static OnInput OnLeftPress;
@@ -55,6 +56,11 @@ public class InputHandler : MonoBehaviour
         if (Input.GetKey(KeyCode.M))
         {
             OnMPress?.Invoke();
+        }
+        
+        if (Input.GetKey(KeyCode.H))
+        {
+            OnHPress?.Invoke();
         }
 
         if (Input.GetKey(KeyCode.Escape))
