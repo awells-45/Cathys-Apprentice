@@ -15,8 +15,9 @@ public class BrightnessSetter : MonoBehaviour
     public PostProcessProfile brightness;
     public PostProcessLayer layer;
     public Slider brightnessSlider;
-
+    
     private AutoExposure _exposure;
+    
     void Start()
     {
         if ((SceneManager.GetActiveScene().name == "MainMenu") || (SceneManager.GetActiveScene().name == "Gameplay"))
