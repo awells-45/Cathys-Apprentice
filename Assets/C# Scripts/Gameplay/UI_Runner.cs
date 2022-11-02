@@ -39,28 +39,28 @@ public class UI_Runner : MonoBehaviour
     {
         PlayButtonSound();
         CloseMenus();
-        settings.SetActive(true);
+        settings.SetActive(!settings.activeSelf);
     }
     
     public void OpenMap()
     {
         PlayButtonSound();
         CloseMenus();
-        map.SetActive(true);
+        map.SetActive(!map.activeSelf);
     }
     
     public void OpenRecipes()
     {
         PlayButtonSound();
         CloseMenus();
-        recipes.SetActive(true);
+        recipes.SetActive(!recipes.activeSelf);
     }
     
     public void OpenHelp()
     {
         PlayButtonSound();
         CloseMenus();
-        help.SetActive(true);
+        help.SetActive(!help.activeSelf);
     }
 
     public void Quit()
