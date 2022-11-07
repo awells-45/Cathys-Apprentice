@@ -34,4 +34,11 @@ public class SettingsRunner : MonoBehaviour
         return Mathf.Log10(volumeLevel) * 20;
     }
 
+    public void DeleteSaveFile()
+    {
+        PlayerPrefs.SetInt("saveExists", 0);
+        PlayerPrefs.Save();
+        // FIXME - In the future, this should also delete the actual save
+    }
+
 }
