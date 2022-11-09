@@ -107,6 +107,7 @@ public class CharacterEntryRunner : TextPlayer
         if (DoesNameContainProfanity(PlayerPrefs.GetString("playerName"))) // TODO - do we want to inform the player that they have a bad name?
         {
             Debug.Log("Bad Name");
+            PlayText("Are you sure that's your name?");
             return;
         }
         PlayerPrefs.Save();
