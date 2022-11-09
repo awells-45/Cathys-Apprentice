@@ -19,6 +19,8 @@ public class CharacterEntryRunner : TextPlayer
     private string _nameEntryInstructions = "What is your name?";
     private string _characterSelectionInstructions = "I can't quit see you from here. What do you look like?";
 
+    private IEnumerator _textPlayer = null;
+
     private int _stateNum = -1; // states: 0 = welcome, 1 = name entry, 2 = char select; 3 = goodbye; 4 = start gameplay
 
     void Start()
@@ -83,7 +85,12 @@ public class CharacterEntryRunner : TextPlayer
 
     void PlayText(string text)
     {
-        StartCoroutine(PlayText(textBox, text));
+        if (_textPlayer != null)
+        {
+            StopCoroutine(_textPlayer);
+        }
+        _textPlayer = PlayText(textBox, text);
+        StartCoroutine(_textPlayer);
     }
 
     public void StartGameplay()
