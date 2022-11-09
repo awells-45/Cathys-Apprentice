@@ -83,7 +83,7 @@ public class CharacterEntryRunner : TextPlayer
         }
     }
 
-    void PlayText(string text)
+    void PlayText(string text) // TODO - this functionality should potentially be moved to the TextPlayer class
     {
         if (_textPlayer != null)
         {
