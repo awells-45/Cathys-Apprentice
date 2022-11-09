@@ -37,7 +37,6 @@ public class PlayerController : MonoBehaviour
         if (!isFloatZeroed(horizontalInput) || !isFloatZeroed(verticalInput)) // if there is direction input
         {
             IncrementFootstepSound();
-            Debug.Log(_stepValue);
         }
         
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);

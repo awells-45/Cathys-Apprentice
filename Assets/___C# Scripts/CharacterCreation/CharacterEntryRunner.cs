@@ -12,6 +12,7 @@ public class CharacterEntryRunner : TextPlayer
     public TMP_Text textBox;
     public GameObject nameEntry;
     public GameObject charModelSelect;
+    public BadWordChecker badWordChecker;
 
     private string _welcomeText = ".....";
     private string _goodbyeText = "Alright, that's all I need for now. Buh bye!";
@@ -103,6 +104,11 @@ public class CharacterEntryRunner : TextPlayer
 
     public void ConfirmPlayerName()
     {
+        if (DoesNameContainProfanity(PlayerPrefs.GetString("playerName"))) // TODO - do we want to inform the player that they have a bad name?
+        {
+            Debug.Log("Bad Name");
+            return;
+        }
         PlayerPrefs.Save();
         if (PlayerPrefs.HasKey("playerName") || (PlayerPrefs.GetString("playerName") != "")) // checking for valid player name
         {
@@ -122,5 +128,10 @@ public class CharacterEntryRunner : TextPlayer
         loadingScreen.SetActive(false);
         nameEntry.SetActive(false);
         charModelSelect.SetActive(false);
+    }
+
+    bool DoesNameContainProfanity(string nameToCheck)
+    {
+        return badWordChecker.CheckString(nameToCheck);
     }
 }
