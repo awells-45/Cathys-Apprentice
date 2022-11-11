@@ -96,6 +96,7 @@ public class CharacterEntryRunner : TextPlayer
     public void StartGameplay()
     {
         PlayerPrefs.SetInt("saveExists", 1);
+        PlayerPrefs.SetInt("seenTutorial", 0);
         PlayerPrefs.Save();
         
         Debug.Log("Starting game");

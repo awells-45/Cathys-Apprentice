@@ -33,6 +33,18 @@ public class UI_Runner : MonoBehaviour
     {
         settingsRunner.LoadVolume();
         CloseMenus();
+
+        if (!PlayerPrefs.HasKey("seenTutorial"))
+        {
+            PlayerPrefs.SetInt("seenTutorial", 0);
+        }
+        if (PlayerPrefs.GetInt("seenTutorial") == 0)
+        {
+            PlayerPrefs.SetInt("seenTutorial", 1);
+            PlayerPrefs.Save();
+            CloseMenus();
+            help.SetActive(true);
+        }
     }
 
     public void OpenSettings()
