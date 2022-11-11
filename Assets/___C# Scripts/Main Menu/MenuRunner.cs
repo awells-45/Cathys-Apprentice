@@ -11,6 +11,7 @@ public class MenuRunner : MonoBehaviour
     public GameObject loadingScreen;
     public SettingsRunner settingsRunner;
     public AudioSource buttonSoundSource;
+    public LocationHandler locationHandler;
 
     void Start()
     {
@@ -69,7 +70,7 @@ public class MenuRunner : MonoBehaviour
 
         if (PlayerPrefs.GetInt("saveExists") == 1) // if save game exists, go to gameplay
         {
-            SceneManager.LoadScene("Gameplay");
+            locationHandler.GoToLocation("Mystic Woods");
         }
         else // if there is no existing save, go to player and name select
         {
