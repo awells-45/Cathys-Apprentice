@@ -13,6 +13,7 @@ public class CharacterEntryRunner : TextPlayer
     public GameObject nameEntry;
     public GameObject charModelSelect;
     public BadWordChecker badWordChecker;
+    public LocationHandler locationHandler;
 
     private string _welcomeText = ".....";
     private string _goodbyeText = "Alright, that's all I need for now. Buh bye!";
@@ -102,7 +103,7 @@ public class CharacterEntryRunner : TextPlayer
         Debug.Log("Starting game");
         DisableScreens();
         loadingScreen.SetActive(true); // show loading screen
-        SceneManager.LoadScene("Gameplay");
+        locationHandler.GoToLocation("Mystic Woods");
     }
 
     public void SetPlayerName(string playerName)

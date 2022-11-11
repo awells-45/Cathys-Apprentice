@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class UI_Runner : MonoBehaviour
@@ -51,28 +52,28 @@ public class UI_Runner : MonoBehaviour
     {
         PlayButtonSound();
         CloseMenus();
-        settings.SetActive(!settings.activeSelf);
+        settings.SetActive(true);
     }
     
     public void OpenMap()
     {
         PlayButtonSound();
         CloseMenus();
-        map.SetActive(!map.activeSelf);
+        map.SetActive(true);
     }
     
     public void OpenRecipes()
     {
         PlayButtonSound();
         CloseMenus();
-        recipes.SetActive(!recipes.activeSelf);
+        recipes.SetActive(true);
     }
     
     public void OpenHelp()
     {
         PlayButtonSound();
         CloseMenus();
-        help.SetActive(!help.activeSelf);
+        help.SetActive(true);
     }
 
     public void Quit()
