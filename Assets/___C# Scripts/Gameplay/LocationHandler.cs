@@ -31,6 +31,7 @@ public class LocationHandler : MonoBehaviour
     {
         PlayerPrefs.SetString("location", location);
         PlayerPrefs.Save();
+        // loading screen?
         SceneManager.LoadScene(location);
         
     }

@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/___Scenes/Gameplay/Mystic Woods.unity
     guid: 447ff69e69adf4ad4868c2a709dd14e6
+  - enabled: 1
+    path: Assets/___Scenes/Gameplay/Wishing Well.unity
+    guid: fb85d57dae96241cc92059a4549f23df
+  - enabled: 1
+    path: Assets/___Scenes/Gameplay/Irish Meadows.unity
+    guid: e9ae72c18e54c42cb90373e94d619e14
+  - enabled: 1
+    path: Assets/___Scenes/Gameplay/Fairy Gardens.unity
+    guid: 04a6065b5318f4121807954a65d67120
   m_configObjects: {}
