@@ -10,6 +10,7 @@ public class UI_Runner : MonoBehaviour
     public GameObject map;
     public GameObject recipes;
     public GameObject help;
+    public GameObject loadingScreen;
     public SettingsRunner settingsRunner;
 
     private void OnEnable()
@@ -97,5 +98,6 @@ public class UI_Runner : MonoBehaviour
         map.SetActive(false);
         recipes.SetActive(false);
         help.SetActive(false);
+        loadingScreen.SetActive(false);
     }
 }

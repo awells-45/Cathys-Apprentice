@@ -10,29 +10,22 @@ using UnityEngine.SceneManagement;
 public class LocationHandler : MonoBehaviour
 {
     public TMP_Text locationText;
+    public GameObject loadingScreen;
 
     void Start()
     {
-        if (locationText) // if the text has been assigned
-        {
-            LoadLocation();
-        }
-    }
-
-    void LoadLocation()
-    {
-        if (PlayerPrefs.HasKey("location"))
-        {
-            locationText.text = PlayerPrefs.GetString("location");
-        }
+        loadingScreen.SetActive(false);
+        SetLocationText(SceneManager.GetActiveScene().name);
     }
 
     public void GoToLocation(string location)
     {
-        PlayerPrefs.SetString("location", location);
-        PlayerPrefs.Save();
-        // loading screen?
+        loadingScreen.SetActive(true);
         SceneManager.LoadScene(location);
-        
+    }
+
+    void SetLocationText(string text)
+    {
+        locationText.text = text;
     }
 }
