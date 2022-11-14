@@ -16271,9 +16271,36 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2619086233303812490, guid: e6474f04af021a743983f654b7752929, type: 3}
+--- !u!114 &717162521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717162516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de039af1758588f448860aa5a5c51173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationHandler: {fileID: 1264875656}
+  location: Cathy's House
+--- !u!65 &717162522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717162516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09, y: 0.016191296, z: 0.02111643}
+  m_Center: {x: -0.00000070082024, y: -0.00000011920929, z: 0.0005582165}
 --- !u!1 &722958808 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
