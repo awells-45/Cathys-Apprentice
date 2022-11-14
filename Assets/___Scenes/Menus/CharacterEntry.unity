@@ -1326,7 +1326,6 @@ GameObject:
   - component: {fileID: 1073808898}
   - component: {fileID: 1073808897}
   - component: {fileID: 1073808900}
-  - component: {fileID: 1073808902}
   - component: {fileID: 1073808901}
   m_Layer: 0
   m_Name: EventSystem
@@ -1402,7 +1401,6 @@ MonoBehaviour:
   nameEntry: {fileID: 424973042}
   charModelSelect: {fileID: 1818019953}
   badWordChecker: {fileID: 95096132}
-  locationHandler: {fileID: 1073808902}
 --- !u!114 &1073808901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1415,19 +1413,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84c17920d163c04caf46bea63e19f09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1073808902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073808894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c89a769f5f88fd24681b73b7e6c7db43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  locationText: {fileID: 0}
 --- !u!1 &1182414476
 GameObject:
   m_ObjectHideFlags: 0
