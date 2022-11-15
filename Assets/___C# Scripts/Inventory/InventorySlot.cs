@@ -8,7 +8,7 @@ public class InventorySlot
     [SerializeField] private InventoryItemData itemData; //serializeField is used to see in the inspector
     [SerializeField] private int stackSize; //how many itemData player has access to
 
-    /*dont want to accidently modify ^^^^ that, so this part of code is used for reference*/
+    /*dont want to accidentally modify ^^^^ that, so this part of code is used for reference*/
     public InventoryItemData ItemData => itemData;
     public int StackSize => stackSize;
 
@@ -58,7 +58,26 @@ public class InventorySlot
 
     public void RemoveFromStack(int amount)
     {
-        stackSize -= amount;
+        if (stackSize >= amount)
+        {
+            // send signal about using n = amount items of type itemData
+            Debug.Log("Consumed " + amount + " of " + itemData.DisplayName);
+            stackSize -= amount;
+            if (stackSize < 1)
+            {
+                ClearSlot();
+            }
+        }
+        else
+        {
+            if (itemData != null)
+            {
+                // send signal about using n = stackSize items of type itemData
+                Debug.Log("Consumed " + stackSize + " of " + itemData.DisplayName);
+            }
+            ClearSlot();
+        }
+        
     }
 
 }

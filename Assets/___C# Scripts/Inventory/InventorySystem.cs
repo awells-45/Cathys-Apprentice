@@ -40,6 +40,7 @@ public class InventorySystem
                 {
                     slot.AddToStack(amountToAdd);
                     OnInventorySlotChanged?.Invoke(slot);
+                    Debug.Log("Added " + amountToAdd + " of " + itemToAdd.DisplayName);
                     return true;
                 }
             }
@@ -50,10 +51,17 @@ public class InventorySystem
         {
             freeSlot.UpdateInventorySlot(itemToAdd, amountToAdd);
             OnInventorySlotChanged?.Invoke(freeSlot);
+            Debug.Log("Added " + amountToAdd + " of " + itemToAdd.DisplayName);
             return true;
         }
 
         return false;
+    }
+
+    public void RemoveFromInventoryOnClick(InventorySlot slotToTakeFrom, int amountToRemove)
+    {
+        slotToTakeFrom.RemoveFromStack(amountToRemove);
+        OnInventorySlotChanged?.Invoke(slotToTakeFrom);
     }
 
     public bool ContainsItem(InventoryItemData itemToAdd, out List<InventorySlot> invSlot)
@@ -64,8 +72,14 @@ public class InventorySystem
         */
         invSlot = InventorySlots.Where(i => i.ItemData == itemToAdd).ToList();
         //return invSlot.Count > 1 ? true : false;
-        Debug.Log(invSlot.Count);
-        Debug.Log("print");
+        if (invSlot.Count > 0)
+        {
+            Debug.Log("Have " + itemToAdd.DisplayName);
+        }
+        else
+        {
+            Debug.Log("Don't have " + itemToAdd.DisplayName);
+        }
         return invSlot == null ? false : true;
     }
 

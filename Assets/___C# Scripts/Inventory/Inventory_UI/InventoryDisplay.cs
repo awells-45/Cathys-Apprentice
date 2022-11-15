@@ -34,6 +34,6 @@ public abstract class InventoryDisplay : MonoBehaviour
 
     public void SlotClicked(InventorySlots_UI clickedSlot)
     {
-        Debug.Log("Slot clicked");
+        inventorySystem.RemoveFromInventoryOnClick(clickedSlot.AssignedInventorySlot, 1);
     }
 }
