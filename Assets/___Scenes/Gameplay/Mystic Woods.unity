@@ -4872,6 +4872,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9575352f478c4537b01828ebbd60d0c, type: 3}
   m_PrefabInstance: {fileID: 205013239}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &214114730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5048340312282197692, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+  m_PrefabInstance: {fileID: 256007145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &214114735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214114730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5c5eeba22d21f499346f18e5e1a9cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryDisplay: {fileID: 438065708}
 --- !u!1 &217263358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 15548ee1448664f2daed52f226ab5319, type: 3}
@@ -5630,14 +5648,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5048340312890374064, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -14.087709
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340312953149658, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -14.087709
-      objectReference: {fileID: 0}
     - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5685,22 +5695,6 @@ PrefabInstance:
     - target: {fileID: 5048340313106107775, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_Name
       value: Persistent Gameplay
-      objectReference: {fileID: 0}
-    - target: {fileID: 6364487577805484929, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6364487577805484929, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6364487577805484929, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 489776255}
-    - target: {fileID: 6364487577805484929, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6364487577805484940, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_AnchorMax.y
@@ -9806,6 +9800,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5473569773201559785, guid: fd8e0760db14a534a89257f68a4f2a8c, type: 3}
   m_PrefabInstance: {fileID: 437732164}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &438065708 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3471751888698967087, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+  m_PrefabInstance: {fileID: 256007145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e266ea4611648248665b6cd4b61b58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &443440230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11220,11 +11225,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 38335279662569219, guid: 34d3f526198dae440bb2ce6005d86055, type: 3}
   m_PrefabInstance: {fileID: 489198894}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &489776255 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5390288777858417563, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-  m_PrefabInstance: {fileID: 256007145}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &491444343
 PrefabInstance:

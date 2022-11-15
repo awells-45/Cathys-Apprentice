@@ -1,7 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEngine.InputSystem;
+
+// https://www.tutorialsteacher.com/csharp/csharp-event
+// https://www.infoworld.com/article/2996770/how-to-work-with-delegates-in-csharp.html
+
+public delegate void ItemDelegate(InventoryItemData removedItemData);
 
 public abstract class InventoryDisplay : MonoBehaviour
 {
@@ -11,6 +15,7 @@ public abstract class InventoryDisplay : MonoBehaviour
     protected Dictionary<InventorySlots_UI, InventorySlot> slotDictionary;
 
     public InventorySystem InventorySystem => inventorySystem;
+    public event ItemDelegate ItemUsed;
 
     public Dictionary<InventorySlots_UI, InventorySlot> SlotDictionary => slotDictionary;
 
@@ -34,6 +39,11 @@ public abstract class InventoryDisplay : MonoBehaviour
 
     public void SlotClicked(InventorySlots_UI clickedSlot)
     {
+        InventoryItemData removedItemData = clickedSlot.AssignedInventorySlot.ItemData;
         inventorySystem.RemoveFromInventoryOnClick(clickedSlot.AssignedInventorySlot, 1);
+        if (removedItemData != null)
+        {
+            ItemUsed?.Invoke(removedItemData); // send out event with the item data for what was removed
+        }
     }
 }

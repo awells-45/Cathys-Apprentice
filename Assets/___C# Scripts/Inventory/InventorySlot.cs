@@ -60,7 +60,7 @@ public class InventorySlot
     {
         if (stackSize >= amount)
         {
-            // send signal about using n = amount items of type itemData
+            // call function about using n = amount items of type itemData???
             Debug.Log("Consumed " + amount + " of " + itemData.DisplayName);
             stackSize -= amount;
             if (stackSize < 1)
@@ -72,7 +72,7 @@ public class InventorySlot
         {
             if (itemData != null)
             {
-                // send signal about using n = stackSize items of type itemData
+                // call function about using n = stackSize items of type itemData???
                 Debug.Log("Consumed " + stackSize + " of " + itemData.DisplayName);
             }
             ClearSlot();
