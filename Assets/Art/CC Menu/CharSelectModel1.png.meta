@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/___Art/Buttons/Quit_Highlighted.png.meta
+guid: d8b690219d43dbb40a1019f5027924df
+=======
 guid: 6ab025be94c10c546abab081dad92f84
+>>>>>>> main:Assets/Art/CC Menu/CharSelectModel1.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
