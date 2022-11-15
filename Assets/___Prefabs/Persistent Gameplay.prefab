@@ -6190,6 +6190,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   locationText: {fileID: 5048340312251501952}
   loadingScreen: {fileID: 8457069282301582095}
+  player: {fileID: 5390288777858417563}
+  characterController: {fileID: 921806887789256551}
 --- !u!222 &5048340312722480998
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7813,7 +7815,6 @@ MonoBehaviour:
   map: {fileID: 5048340311471962434}
   recipes: {fileID: 5048340312871187973}
   help: {fileID: 5048340312852496457}
-  loadingScreen: {fileID: 8457069282301582095}
   settingsRunner: {fileID: 5048340312981543847}
 --- !u!114 &5048340312981543845
 MonoBehaviour:
@@ -10611,6 +10612,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cc3227485d7fe2048b1004c8c3804ee9, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cc3227485d7fe2048b1004c8c3804ee9, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []

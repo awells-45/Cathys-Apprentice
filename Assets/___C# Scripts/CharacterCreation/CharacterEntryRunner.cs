@@ -97,6 +97,7 @@ public class CharacterEntryRunner : TextPlayer
     {
         PlayerPrefs.SetInt("saveExists", 1);
         PlayerPrefs.SetInt("seenTutorial", 0);
+        PlayerPrefs.SetString("prevLocation", SceneManager.GetActiveScene().name);
         PlayerPrefs.Save();
         
         Debug.Log("Starting game");
