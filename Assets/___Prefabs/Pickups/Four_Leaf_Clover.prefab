@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7080652221965169756}
   - component: {fileID: 5019104450359361686}
   - component: {fileID: 5937685249371806740}
+  - component: {fileID: 351813320}
+  - component: {fileID: 351813319}
   m_Layer: 0
   m_Name: Four_Leaf_Clover
   m_TagString: Untagged
@@ -26,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6820574743141228867}
-  m_LocalRotation: {x: -7.520463e-18, y: -0.7658444, z: 7.520463e-18, w: 0.64302593}
+  m_LocalRotation: {x: 0, y: -0.7658425, z: 0, w: 0.64302826}
   m_LocalPosition: {x: 2.2, y: 12.7, z: -7.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -99.964, z: 0}
 --- !u!33 &7080652221965169756
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -148,3 +150,30 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!135 &351813320
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6820574743141228867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.33806807
+  m_Center: {x: -0.0023880003, y: -0.0027120262, z: -0.0000002235174}
+--- !u!114 &351813319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6820574743141228867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7dfbb3071c6d475f895a4bb23749c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUpRadius: 1
+  ItemData: {fileID: 11400000, guid: 3a0f3a77440929b4b932445e94108f7b, type: 2}
