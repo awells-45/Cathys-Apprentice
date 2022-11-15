@@ -177,3 +177,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickUpRadius: 1
   ItemData: {fileID: 11400000, guid: 3a0f3a77440929b4b932445e94108f7b, type: 2}
+  PickupSound: {fileID: 0}

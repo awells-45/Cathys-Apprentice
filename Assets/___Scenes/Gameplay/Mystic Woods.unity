@@ -6625,13 +6625,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1335109013}
     m_Modifications:
+    - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
+      propertyPath: PickupSound
+      value: 
+      objectReference: {fileID: 548556042}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 82.867905
+      value: 102.87
       objectReference: {fileID: 0}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7714,6 +7718,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1335109013}
     m_Modifications:
+    - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
+      propertyPath: PickupSound
+      value: 
+      objectReference: {fileID: 548556042}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -12575,6 +12583,11 @@ GameObject:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9575352f478c4537b01828ebbd60d0c, type: 3}
   m_PrefabInstance: {fileID: 699642530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &548556042 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 548556042, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+  m_PrefabInstance: {fileID: 256007145}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &548706752
 GameObject:
@@ -22448,6 +22461,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1335109013}
     m_Modifications:
+    - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
+      propertyPath: PickupSound
+      value: 
+      objectReference: {fileID: 548556042}
     - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_Name
       value: Fairy_Powder
@@ -22548,13 +22565,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1335109013}
     m_Modifications:
+    - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
+      propertyPath: PickupSound
+      value: 
+      objectReference: {fileID: 548556042}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 92.867905
+      value: 90.47
       objectReference: {fileID: 0}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22562,7 +22583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.1497383
+      value: 50.2
       objectReference: {fileID: 0}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_LocalRotation.w
@@ -41235,6 +41256,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1335109013}
     m_Modifications:
+    - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
+      propertyPath: PickupSound
+      value: 
+      objectReference: {fileID: 548556042}
     - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_Name
       value: Fairy_Powder (1)
@@ -41245,7 +41270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 81.4679
+      value: 100.06
       objectReference: {fileID: 0}
     - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_LocalPosition.y
@@ -50437,6 +50462,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2035100635419063833, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
+      propertyPath: PickupSound
+      value: 
+      objectReference: {fileID: 548556042}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
 --- !u!1001 &6313350963506677162

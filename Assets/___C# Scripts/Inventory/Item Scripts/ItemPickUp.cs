@@ -10,6 +10,7 @@ public class ItemPickUp : MonoBehaviour
      * and modify this so that doesnt automatically pick it up*/
     public float PickUpRadius = 1f;
     public InventoryItemData ItemData;
+    public AudioSource PickupSound;
 
     private SphereCollider myCollider;
 
@@ -28,6 +29,7 @@ public class ItemPickUp : MonoBehaviour
 
         if (inventory.InventorySystem.AddToInventory(ItemData, 1))
         {
+            PickupSound.Play();
             Destroy(this.gameObject);
         }
     }
