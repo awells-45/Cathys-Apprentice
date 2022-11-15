@@ -69,11 +69,7 @@ public class MenuRunner : MonoBehaviour
 
         if (PlayerPrefs.GetInt("saveExists") == 1) // if save game exists, go to gameplay
         {
-<<<<<<< HEAD:Assets/___C# Scripts/Main Menu/MenuRunner.cs
-            SceneManager.LoadScene("Mystic Woods");
-=======
             SceneManager.LoadScene("Gameplay");
->>>>>>> main:Assets/C# Scripts/Main Menu/MenuRunner.cs
         }
         else // if there is no existing save, go to player and name select
         {

@@ -1350,10 +1350,6 @@ MonoBehaviour:
   textBox: {fileID: 986402275}
   nameEntry: {fileID: 424973042}
   charModelSelect: {fileID: 1818019953}
-<<<<<<< HEAD:Assets/___Scenes/Menus/CharacterEntry.unity
-  badWordChecker: {fileID: 95096132}
-=======
->>>>>>> main:Assets/Scenes/CharacterEntry.unity
 --- !u!114 &1073808901
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -184,7 +184,7 @@ MonoBehaviour:
   m_text: Loading...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a002aed40a992bb45ae70aea95263f8f, type: 2}
-  m_sharedMaterial: {fileID: 3440371830652204829, guid: a002aed40a992bb45ae70aea95263f8f, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -739,11 +739,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:Assets/___Scenes/Menus/MainMenu.unity
-  m_Sprite: {fileID: 21300000, guid: 515aa46cd23f4c24fbfaec160e1026c4, type: 3}
-=======
   m_Sprite: {fileID: 21300000, guid: d2f20de490f976d4186c4dadd6de151b, type: 3}
->>>>>>> main:Assets/Scenes/MainMenu.unity
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1471,13 +1467,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-<<<<<<< HEAD:Assets/___Scenes/Menus/MainMenu.unity
-    m_HighlightedSprite: {fileID: 21300000, guid: 7d7ba85d1d8da1e44a734777baabf62d, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 5955516dbafa066439c599700892584c, type: 3}
-=======
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
->>>>>>> main:Assets/Scenes/MainMenu.unity
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -1724,13 +1715,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-<<<<<<< HEAD:Assets/___Scenes/Menus/MainMenu.unity
-    m_HighlightedSprite: {fileID: 21300000, guid: 06a7ca06e1b058b4bba4cde026d747b7, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 688e242d087e4534f88f1f4152cfe031, type: 3}
-=======
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
->>>>>>> main:Assets/Scenes/MainMenu.unity
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -2368,13 +2354,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-<<<<<<< HEAD:Assets/___Scenes/Menus/MainMenu.unity
-    m_HighlightedSprite: {fileID: 21300000, guid: 27093aebdc37fbf4aa7e8e0279825218, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 48e6a564cb61d174ca4c67f8340322b9, type: 3}
-=======
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
->>>>>>> main:Assets/Scenes/MainMenu.unity
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -4200,13 +4181,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-<<<<<<< HEAD:Assets/___Scenes/Menus/MainMenu.unity
-    m_HighlightedSprite: {fileID: 21300000, guid: d8b690219d43dbb40a1019f5027924df, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 529b92bdfc2e57e449439b55f3bb336c, type: 3}
-=======
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
->>>>>>> main:Assets/Scenes/MainMenu.unity
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
