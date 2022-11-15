@@ -12,10 +12,6 @@ public class CharacterEntryRunner : TextPlayer
     public TMP_Text textBox;
     public GameObject nameEntry;
     public GameObject charModelSelect;
-<<<<<<< HEAD:Assets/___C# Scripts/CharacterCreation/CharacterEntryRunner.cs
-    public BadWordChecker badWordChecker;
-=======
->>>>>>> main:Assets/C# Scripts/CharacterCreation/CharacterEntryRunner.cs
 
     private string _welcomeText = ".....";
     private string _goodbyeText = "Alright, that's all I need for now. Buh bye!";
@@ -97,11 +93,7 @@ public class CharacterEntryRunner : TextPlayer
         Debug.Log("Starting game");
         DisableScreens();
         loadingScreen.SetActive(true); // show loading screen
-<<<<<<< HEAD:Assets/___C# Scripts/CharacterCreation/CharacterEntryRunner.cs
-        SceneManager.LoadScene("Mystic Woods");
-=======
         SceneManager.LoadScene("Gameplay");
->>>>>>> main:Assets/C# Scripts/CharacterCreation/CharacterEntryRunner.cs
     }
 
     public void SetPlayerName(string playerName)

@@ -17,17 +17,17 @@ RenderSettings:
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.03
-  m_LinearFogStart: 1000
-  m_LinearFogEnd: 1000.01
-  m_AmbientSkyColor: {r: 0.21176471, g: 0.22745098, b: 0.25882354, a: 1}
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
-  m_HaloStrength: 0
+  m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -1837,25 +1837,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4385080170327957909, guid: ff62b58c5a9ea164fa8ddf8038e10cd1, type: 3}
   m_PrefabInstance: {fileID: 80941457}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &84692332 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -7640558969779515294, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-  m_PrefabInstance: {fileID: 100136070}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &84692336
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84692332}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5053925668127403250, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
 --- !u!1001 &86148166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2166,93 +2147,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 38335279662569219, guid: 34d3f526198dae440bb2ce6005d86055, type: 3}
   m_PrefabInstance: {fileID: 96891756}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1 &97523785 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9575352f478c4537b01828ebbd60d0c, type: 3}
-  m_PrefabInstance: {fileID: 1345174001}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &100136070
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 104.13
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-      propertyPath: m_Name
-      value: Cathy's House
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
---- !u!4 &100136073 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-  m_PrefabInstance: {fileID: 100136070}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &106462462 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9575352f478c4537b01828ebbd60d0c, type: 3}
-  m_PrefabInstance: {fileID: 430540787}
-  m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &109279362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2401,88 +2295,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4680757731159730826, guid: 0fde05fa0f3321942a21896ff4f0856f, type: 3}
   m_PrefabInstance: {fileID: 112860024}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1 &113700588 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 15548ee1448664f2daed52f226ab5319, type: 3}
-  m_PrefabInstance: {fileID: 613528296}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &118291144
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 551836729}
-    m_Modifications:
-    - target: {fileID: 6313350962750575928, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_Name
-      value: Portal - Fairy Gardens
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.009999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -15.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.72
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.72
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: location
-      value: Fairy Gardens
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: locationHandler
-      value: 
-      objectReference: {fileID: 1264875656}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 00292b0e86630b848842d9732089e787, type: 3}
---- !u!4 &118291145 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-  m_PrefabInstance: {fileID: 118291144}
-  m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &119195147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5296,253 +5108,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4188331867383602, guid: d2d67fda15fa26342932fffde03aeb05, type: 3}
   m_PrefabInstance: {fileID: 250963027}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1 &251282068 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9575352f478c4537b01828ebbd60d0c, type: 3}
-  m_PrefabInstance: {fileID: 205013239}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &251282071
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251282068}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1253431707058053775, guid: f9575352f478c4537b01828ebbd60d0c, type: 3}
---- !u!1001 &256007145
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 289229582092614452, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 289229582092614452, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 289229582092614452, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 289229582092614452, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1330038122793903056, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1330038122793903056, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1330038122793903056, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1330038122793903056, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1415018115028551662, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1415018115028551662, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1415018115028551662, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1415018115028551662, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4646586137782080493, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4646586137782080493, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4646586137782080493, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4646586137782080493, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 131
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 22.698776
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 96.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9884824
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.15133561
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 17.409
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5048340313106107775, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_Name
-      value: Persistent Gameplay
-      objectReference: {fileID: 0}
-    - target: {fileID: 6364487577805484940, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6364487577805484940, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6364487577805484940, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6364487577805484940, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6588961757156157770, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6588961757156157770, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6987014690508194446, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6987014690508194446, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6987014690508194446, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6987014690508194446, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585846455635691035, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585846455635691035, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585846455635691035, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585846455635691035, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915051438338848816, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915051438338848816, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915051438338848816, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915051438338848816, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8377987851214743635, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8377987851214743635, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8377987851214743635, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8377987851214743635, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9114788638888835649, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9114788638888835649, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9114788638888835649, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9114788638888835649, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &262232418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6157,13 +5722,6 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!4 &293187157 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-  m_PrefabInstance: {fileID: 1019365636}
-  m_PrefabAsset: {fileID: 0}
-=======
   m_GameObject: {fileID: 283753829}
   m_Enabled: 1
   serializedVersion: 2
@@ -6216,7 +5774,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &293415046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6465,84 +6022,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4003ee0e13c044c37b001490e5819029, type: 3}
   m_PrefabInstance: {fileID: 296071072}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!64 &296071076
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231706212}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6716335616185501631, guid: 4003ee0e13c044c37b001490e5819029, type: 3}
---- !u!1001 &299788897
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1335109013}
-    m_Modifications:
-    - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: PickupSound
-      value: 
-      objectReference: {fileID: 548556042}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 102.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 24.762764
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6.1497383
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.64302593
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -7.520463e-18
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7658444
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 7.520463e-18
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6820574743141228867, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_Name
-      value: Four_Leaf_Clover (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &302510717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6820,7 +6299,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.6
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -7455,80 +6934,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4003ee0e13c044c37b001490e5819029, type: 3}
   m_PrefabInstance: {fileID: 350663360}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1001 &351813317
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1335109013}
-    m_Modifications:
-    - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: PickupSound
-      value: 
-      objectReference: {fileID: 548556042}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 73.0679
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 24.762764
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6.1497383
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.64302593
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -7.520463e-18
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7658444
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 7.520463e-18
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6820574743141228867, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_Name
-      value: Four_Leaf_Clover
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5459d67ede2b42440bcc813114872893, type: 3}
---- !u!4 &351813324 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-  m_PrefabInstance: {fileID: 351813317}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &354160592 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 1313936403}
-  m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &355433185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8037,24 +7442,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 15548ee1448664f2daed52f226ab5319, type: 3}
   m_PrefabInstance: {fileID: 370446986}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!4 &371503236 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-  m_PrefabInstance: {fileID: 1108670781}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &374229996 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4003ee0e13c044c37b001490e5819029, type: 3}
-  m_PrefabInstance: {fileID: 464898089}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &375134313 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9575352f478c4537b01828ebbd60d0c, type: 3}
-  m_PrefabInstance: {fileID: 514329290}
-  m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &378403046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10206,13 +9593,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1567778426036665178, guid: c00ecfa9e008e304ca87beda15e69f43, type: 3}
   m_PrefabInstance: {fileID: 468407460}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1 &472292299 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4003ee0e13c044c37b001490e5819029, type: 3}
-  m_PrefabInstance: {fileID: 1048200280}
-  m_PrefabAsset: {fileID: 0}
-=======
 --- !u!1 &471068621
 GameObject:
   m_ObjectHideFlags: 0
@@ -10310,7 +9690,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &476158946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12146,57 +11525,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4151725995838774856, guid: d26dc1241d332c342b898a57f1164932, type: 3}
   m_PrefabInstance: {fileID: 545162844}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1 &547566689 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 34764961}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &547566692
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 547566689}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2334299247251112542, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
---- !u!136 &547566695
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 547566689}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 2.0260317
-  m_Height: 9.249981
-  m_Direction: 1
-  m_Center: {x: -0.0000038146973, y: 0, z: 0}
---- !u!1 &547585418 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 1177602763}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &548214537 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9575352f478c4537b01828ebbd60d0c, type: 3}
-  m_PrefabInstance: {fileID: 699642530}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &548556042 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 548556042, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-  m_PrefabInstance: {fileID: 256007145}
-  m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1 &548706752
 GameObject:
   m_ObjectHideFlags: 0
@@ -12342,7 +11670,6 @@ Transform:
   - {fileID: 403048936}
   - {fileID: 2001390112}
   - {fileID: 1717465244}
-  - {fileID: 118291145}
   m_Father: {fileID: 2101022234}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15686,196 +15013,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5440707293445741943, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
   m_PrefabInstance: {fileID: 708600308}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1 &713789632 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 513578943}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &713789635
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713789632}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2334299247251112542, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
---- !u!1001 &717162515
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 100136073}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.17
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: e6474f04af021a743983f654b7752929, type: 3}
-      propertyPath: m_Name
-      value: Door
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e6474f04af021a743983f654b7752929, type: 3}
---- !u!1 &717162516 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -8068073526183931155, guid: e6474f04af021a743983f654b7752929, type: 3}
-  m_PrefabInstance: {fileID: 717162515}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &717162517
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717162516}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2619086233303812490, guid: e6474f04af021a743983f654b7752929, type: 3}
---- !u!114 &717162521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717162516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de039af1758588f448860aa5a5c51173, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  locationHandler: {fileID: 1264875656}
-  location: Cathy's House
---- !u!65 &717162522
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717162516}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.09, y: 0.016191296, z: 0.02111643}
-  m_Center: {x: -0.00000070082024, y: -0.00000011920929, z: 0.0005582165}
---- !u!1 &722958808 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 1612547827}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &729601097 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 1413651542}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &730083660 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9575352f478c4537b01828ebbd60d0c, type: 3}
-  m_PrefabInstance: {fileID: 1201169348}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &732354085 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 996105026}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &733401777 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 293415046}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &733401780
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733401777}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2334299247251112542, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
---- !u!136 &733401783
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733401777}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 2.026032
-  m_Height: 9.249981
-  m_Direction: 1
-  m_Center: {x: 0.000015258789, y: 0, z: 0}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &734037461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16768,25 +15905,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4056631433067114, guid: c9bb692f8b5490743a59d75a7995b81c, type: 3}
   m_PrefabInstance: {fileID: 785873145}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &796044388 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-  m_PrefabInstance: {fileID: 100136070}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &796044392
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 796044388}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4493585093827132993, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
 --- !u!1 &798279287
 GameObject:
   m_ObjectHideFlags: 0
@@ -19588,14 +18706,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 522459008932552855, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
   m_PrefabInstance: {fileID: 925846120}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!4 &926011542 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-  m_PrefabInstance: {fileID: 6313350963506677162}
-  m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &927486175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20934,28 +20044,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 15548ee1448664f2daed52f226ab5319, type: 3}
   m_PrefabInstance: {fileID: 1003015924}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!64 &1003015928
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987438259}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3491297860899289829, guid: 15548ee1448664f2daed52f226ab5319, type: 3}
---- !u!1 &1005430634 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 1069837954}
-  m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &1006268028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21166,174 +20254,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4680757731159730826, guid: 0fde05fa0f3321942a21896ff4f0856f, type: 3}
   m_PrefabInstance: {fileID: 1011230970}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1001 &1012676068
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1335109013}
-    m_Modifications:
-    - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: PickupSound
-      value: 
-      objectReference: {fileID: 548556042}
-    - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_Name
-      value: Fairy_Powder
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 78.867905
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 24.762764
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.3502617
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
---- !u!4 &1012676075 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-  m_PrefabInstance: {fileID: 1012676068}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1013450141 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 15548ee1448664f2daed52f226ab5319, type: 3}
-  m_PrefabInstance: {fileID: 2124565052}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1016385746 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 785053385}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1016385749
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1016385746}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2334299247251112542, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
---- !u!136 &1016385752
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1016385746}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 2.0260332
-  m_Height: 9.249981
-  m_Direction: 1
-  m_Center: {x: 0.0000076293945, y: 0, z: 0}
---- !u!1001 &1019365636
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1335109013}
-    m_Modifications:
-    - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: PickupSound
-      value: 
-      objectReference: {fileID: 548556042}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 90.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 24.762764
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 50.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.64302593
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -7.520463e-18
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7658444
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 7.520463e-18
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6820574743141228867, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-      propertyPath: m_Name
-      value: Four_Leaf_Clover (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &1023115280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22090,11 +21010,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5473569773201559785, guid: fd8e0760db14a534a89257f68a4f2a8c, type: 3}
   m_PrefabInstance: {fileID: 1061586633}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1063079699 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
-  m_PrefabInstance: {fileID: 299788897}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1063275693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22647,71 +21562,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1025681519537473006, guid: aa99a810914c5b84b9bc5d51f95dd05c, type: 3}
   m_PrefabInstance: {fileID: 1107048536}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1108670781
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1776407557}
-    m_Modifications:
-    - target: {fileID: 6313350962750575928, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_Name
-      value: Portal - Irish Meadows
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 175.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.72
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: location
-      value: Irish Meadows
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: locationHandler
-      value: 
-      objectReference: {fileID: 1264875656}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 00292b0e86630b848842d9732089e787, type: 3}
 --- !u!1001 &1109577041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25015,25 +23865,6 @@ Transform:
   m_Father: {fileID: 689803645}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1215488971 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
-  m_PrefabInstance: {fileID: 100136070}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1215488975
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1215488971}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5495902117074765545, guid: 97c1419bb8a25d544872c1c21d5bc8f2, type: 3}
 --- !u!1001 &1216773985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27632,65 +26463,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 38335279662569219, guid: 34d3f526198dae440bb2ce6005d86055, type: 3}
   m_PrefabInstance: {fileID: 1335105279}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1 &1335109012
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1335109013}
-  m_Layer: 0
-  m_Name: Pickups
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1335109013
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335109012}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.032099, y: -24.262764, z: 56.550262}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1012676075}
-  - {fileID: 351813324}
-  - {fileID: 543450651597099294}
-  - {fileID: 1563604971}
-  - {fileID: 1063079699}
-  - {fileID: 293187157}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1335679635 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 689508296}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1335679638
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335679635}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2334299247251112542, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &1336845627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31502,11 +30274,7 @@ Transform:
   - {fileID: 518271211}
   - {fileID: 640109714}
   m_Father: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
-  m_RootOrder: 3
-=======
   m_RootOrder: 6
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1506758223
 PrefabInstance:
@@ -32347,6 +31115,8 @@ Transform:
   - {fileID: 126092297}
   - {fileID: 1177673211}
   - {fileID: 653299901}
+  - {fileID: 1986386755}
+  - {fileID: 1628047717}
   m_Father: {fileID: 1684316325}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -33370,11 +32140,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5440707293445741943, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
   m_PrefabInstance: {fileID: 1562998331}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1563604971 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-  m_PrefabInstance: {fileID: 1769361515}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1572658462
 PrefabInstance:
@@ -34664,27 +33429,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1025681519537473006, guid: aa99a810914c5b84b9bc5d51f95dd05c, type: 3}
   m_PrefabInstance: {fileID: 1612871054}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1 &1619497989 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 1303552945}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1619497992
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619497989}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2334299247251112542, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-=======
 --- !u!1001 &1628047716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34747,7 +33491,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4003ee0e13c044c37b001490e5819029, type: 3}
   m_PrefabInstance: {fileID: 1628047716}
   m_PrefabAsset: {fileID: 0}
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &1630482551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37071,90 +35814,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4003ee0e13c044c37b001490e5819029, type: 3}
   m_PrefabInstance: {fileID: 1751551823}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!64 &1751551827
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536416270}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6716335616185501631, guid: 4003ee0e13c044c37b001490e5819029, type: 3}
---- !u!1 &1751993128 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6313350962750575928, guid: 00292b0e86630b848842d9732089e787, type: 3}
-  m_PrefabInstance: {fileID: 118291144}
-  m_PrefabAsset: {fileID: 0}
---- !u!108 &1751993133
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1751993128}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 0.965394, g: 0.7396226, b: 1, a: 1}
-  m_Intensity: 3
-  m_Range: 20
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 1
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 31
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &1753440556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37217,108 +35876,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 38335279662569219, guid: 34d3f526198dae440bb2ce6005d86055, type: 3}
   m_PrefabInstance: {fileID: 1753440556}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
---- !u!1 &1756978205 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 1230058412}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1756978208
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756978205}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2334299247251112542, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
---- !u!136 &1756978211
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756978205}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 2.026032
-  m_Height: 9.249981
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0.0000076293945}
---- !u!1 &1760640640 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ef787f2d677c436f83535fa5382cf4a, type: 3}
-  m_PrefabInstance: {fileID: 1880102349}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1769361515
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1335109013}
-    m_Modifications:
-    - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: PickupSound
-      value: 
-      objectReference: {fileID: 548556042}
-    - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_Name
-      value: Fairy_Powder (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 100.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 24.762764
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.3502617
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2053521696426004480, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
-=======
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &1772736985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37420,7 +35977,6 @@ Transform:
   - {fileID: 1841371896}
   - {fileID: 489198895}
   - {fileID: 355433186}
-  - {fileID: 371503236}
   m_Father: {fileID: 2101022234}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -41330,8 +39886,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 902912374606502253, guid: 8c1162e29ab5baf45ad76ebc6e86889b, type: 3}
   m_PrefabInstance: {fileID: 1983772709}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
-=======
 --- !u!1001 &1986386754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41394,7 +39948,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4003ee0e13c044c37b001490e5819029, type: 3}
   m_PrefabInstance: {fileID: 1986386754}
   m_PrefabAsset: {fileID: 0}
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
 --- !u!1001 &1989971642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44869,150 +43422,6 @@ Transform:
 --- !u!1001 &6000940414640935162
 PrefabInstance:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD:Assets/___Scenes/Gameplay/Mystic Woods.unity
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1976580175}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3491297860899289829, guid: 15548ee1448664f2daed52f226ab5319, type: 3}
---- !u!4 &543450651597099294 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-  m_PrefabInstance: {fileID: 2035100634600440046}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2035100634600440046
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1335109013}
-    m_Modifications:
-    - target: {fileID: 1224777816015244106, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_Name
-      value: Coin
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 82.867905
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 24.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.7497368
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996387951162839536, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2035100635419063833, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
-      propertyPath: PickupSound
-      value: 
-      objectReference: {fileID: 548556042}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
---- !u!1001 &6313350963506677162
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 18999845}
-    m_Modifications:
-    - target: {fileID: 6313350962750575928, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_Name
-      value: Portal - Well
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 80.83246
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.524296
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -100.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575932, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: location
-      value: Wishing Well
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
-      propertyPath: locationHandler
-      value: 
-      objectReference: {fileID: 1264875656}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 00292b0e86630b848842d9732089e787, type: 3}
-=======
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
@@ -45067,4 +43476,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90b7829f3dde549e4b3f82679028a407, type: 3}
->>>>>>> main:Assets/Scenes/Mystic Woods.unity
