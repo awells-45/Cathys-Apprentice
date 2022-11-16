@@ -12,19 +12,24 @@ using UnityEngine.SceneManagement;
 
 public class BrightnessSetter : MonoBehaviour
 {
+    public Slider brightnessSlider;
     public PostProcessProfile brightness;
     public PostProcessLayer layer;
-    public Slider brightnessSlider;
-    
+
     private AutoExposure _exposure;
     
     void Start()
     {
-        if ((SceneManager.GetActiveScene().name == "MainMenu") || (SceneManager.GetActiveScene().name == "Gameplay"))
+        if (brightnessSlider != null)
         {
             brightness.TryGetSettings(out _exposure);
             brightnessSlider.value = PlayerPrefs.GetFloat("brightness", 1); // load settings into the slider
             SetBrightness(brightnessSlider.value);
+        }
+        else
+        {
+            brightness.TryGetSettings(out _exposure);
+            SetBrightness(PlayerPrefs.GetFloat("brightness", 1));
         }
     }
 
