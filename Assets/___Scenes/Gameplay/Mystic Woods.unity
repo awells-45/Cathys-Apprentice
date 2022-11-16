@@ -5802,6 +5802,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4735736561043527577, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_Name
+      value: Mesh
+      objectReference: {fileID: 0}
     - target: {fileID: 5048340311250041412, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -5969,6 +5973,10 @@ PrefabInstance:
     - target: {fileID: 6588961757156157770, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907035846791482790, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6987014690508194446, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_AnchorMax.y
