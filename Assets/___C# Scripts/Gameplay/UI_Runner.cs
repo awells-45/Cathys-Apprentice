@@ -10,6 +10,7 @@ public class UI_Runner : MonoBehaviour
     public GameObject map;
     public GameObject recipes;
     public GameObject help;
+    public GameObject potionBrewing;
     public SettingsRunner settingsRunner;
 
     private void OnEnable()
@@ -75,6 +76,13 @@ public class UI_Runner : MonoBehaviour
         CloseMenus();
         help.SetActive(true);
     }
+    
+    public void OpenPotionBrewing()
+    {
+        PlayButtonSound();
+        CloseMenus();
+        potionBrewing.SetActive(true);
+    }
 
     public void Quit()
     {
@@ -97,5 +105,6 @@ public class UI_Runner : MonoBehaviour
         map.SetActive(false);
         recipes.SetActive(false);
         help.SetActive(false);
+        potionBrewing.SetActive(false);
     }
 }
