@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -6,6 +7,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 //https://stackoverflow.com/questions/60189192/check-if-a-gameobject-has-been-assigned-in-the-inspector-in-unity3d-2019-3-05f
+// https://subscription.packtpub.com/book/game-development/9781800207806/12/ch12lvl1sec32/using-try-catch
 
 public class LocationHandler : MonoBehaviour
 {
@@ -13,6 +15,9 @@ public class LocationHandler : MonoBehaviour
     public GameObject loadingScreen;
     public GameObject player;
     public CharacterController characterController;
+    public AudioClip portalSound1;
+    public AudioClip portalSound2;
+    public AudioSource soundSource;
 
     void Start()
     {
@@ -42,6 +47,13 @@ public class LocationHandler : MonoBehaviour
                 GoToPosition(-19.5f, -22.73778f, -41.3f, -17.409f);
             }
         }
+
+        if (PlayerPrefs.GetInt("wentThroughPortal", 0) == 1)
+        {
+            PlayRandPortalSound();
+            PlayerPrefs.SetInt("wentThroughPortal", 0);
+            PlayerPrefs.Save();
+        }
         SetLocationText(currSceneName);
         loadingScreen.SetActive(false);
     }
@@ -65,5 +77,32 @@ public class LocationHandler : MonoBehaviour
         player.transform.localPosition = new Vector3(x, y, z);
         player.transform.Rotate(00.0f, rotY, 0.0f, Space.World);
         characterController.enabled = true;
+    }
+    
+    private void PlayRandPortalSound()
+    {
+        if ((portalSound1 != null) && (portalSound2 != null))
+        {
+            try
+            {
+                int randInt = UnityEngine.Random.Range(0, 2);
+                AudioClip audioClip;
+                switch (randInt)
+                {
+                    case(0):
+                        audioClip = portalSound1;
+                        break;
+                    case(1):
+                    default:
+                        audioClip = portalSound2;
+                        break;
+                }
+                soundSource.PlayOneShot(audioClip);
+            }
+            catch (NullReferenceException)
+            {
+                Debug.Log("No sound source");
+            }
+        }
     }
 }

@@ -605,6 +605,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: isPortal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: location
       value: Mystic Woods
       objectReference: {fileID: 0}

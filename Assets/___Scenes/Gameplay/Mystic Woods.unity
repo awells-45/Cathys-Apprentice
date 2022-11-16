@@ -2507,9 +2507,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: isPortal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: location
       value: Fairy Gardens
       objectReference: {fileID: 0}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 1180554360}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: portalSound1
+      value: 
+      objectReference: {fileID: 8300000, guid: 3359a8283b014fc4d9827157d3f177e0, type: 3}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: portalSound2
+      value: 
+      objectReference: {fileID: 8300000, guid: ac4edce3a3b3b28418887e3e2cd3d112, type: 3}
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: locationHandler
       value: 
@@ -16885,6 +16901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   locationHandler: {fileID: 1264875656}
   location: Cathy's House
+  isPortal: 0
 --- !u!65 &717162522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24783,9 +24800,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: isPortal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: location
       value: Irish Meadows
       objectReference: {fileID: 0}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 1180554360}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: portalSound1
+      value: 
+      objectReference: {fileID: 8300000, guid: 3359a8283b014fc4d9827157d3f177e0, type: 3}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: portalSound2
+      value: 
+      objectReference: {fileID: 8300000, guid: ac4edce3a3b3b28418887e3e2cd3d112, type: 3}
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: locationHandler
       value: 
@@ -26681,6 +26714,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5473569773201559785, guid: fd8e0760db14a534a89257f68a4f2a8c, type: 3}
   m_PrefabInstance: {fileID: 1179405187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1180554360 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5153877639144253865, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+  m_PrefabInstance: {fileID: 256007145}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1185842946 stripped
 GameObject:
@@ -51317,9 +51355,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: isPortal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: location
       value: Wishing Well
       objectReference: {fileID: 0}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 1180554360}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: portalSound1
+      value: 
+      objectReference: {fileID: 8300000, guid: 3359a8283b014fc4d9827157d3f177e0, type: 3}
+    - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: portalSound2
+      value: 
+      objectReference: {fileID: 8300000, guid: ac4edce3a3b3b28418887e3e2cd3d112, type: 3}
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: locationHandler
       value: 
