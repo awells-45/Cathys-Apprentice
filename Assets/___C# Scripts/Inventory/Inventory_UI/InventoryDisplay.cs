@@ -15,6 +15,7 @@ public abstract class InventoryDisplay : MonoBehaviour
     protected Dictionary<InventorySlots_UI, InventorySlot> slotDictionary;
 
     public InventorySystem InventorySystem => inventorySystem;
+    public GameObject potionBrewer;
     public event ItemDelegate ItemUsed;
 
     public Dictionary<InventorySlots_UI, InventorySlot> SlotDictionary => slotDictionary;
@@ -39,11 +40,17 @@ public abstract class InventoryDisplay : MonoBehaviour
 
     public void SlotClicked(InventorySlots_UI clickedSlot)
     {
-        InventoryItemData removedItemData = clickedSlot.AssignedInventorySlot.ItemData;
-        inventorySystem.RemoveFromInventoryOnClick(clickedSlot.AssignedInventorySlot, 1);
-        if (removedItemData != null)
+        if (potionBrewer != null)
         {
-            ItemUsed?.Invoke(removedItemData); // send out event with the item data for what was removed
+            if (potionBrewer.activeSelf)
+            {
+                InventoryItemData removedItemData = clickedSlot.AssignedInventorySlot.ItemData;
+                inventorySystem.RemoveFromInventoryOnClick(clickedSlot.AssignedInventorySlot, 1);
+                if (removedItemData != null)
+                {
+                    ItemUsed?.Invoke(removedItemData); // send out event with the item data for what was removed
+                }
+            }
         }
     }
 }

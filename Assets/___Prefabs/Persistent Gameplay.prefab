@@ -11018,6 +11018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseInventoryItem: {fileID: 535189029608156669}
+  potionBrewer: {fileID: 963051340}
   inventoryHolder: {fileID: 3411646508328460653}
   slots:
   - {fileID: 7720906307015336466}
