@@ -3,9 +3,29 @@ guid: 637d11484b3454e4fa1e99c3e1e9c048
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Leaf2_1
+    second: {fileID: 2100000, guid: 5f891307aedd9c14dba95e7a4c665076, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Leaf2_2
+    second: {fileID: 2100000, guid: 904030a14bb8b6647992c8c03e70d9ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Leaf2_3
+    second: {fileID: 2100000, guid: d5a772af9b7a3d0488a861dbab4a0064, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Trunk2
+    second: {fileID: 2100000, guid: fa4f031c0a5304647b1d8bf99411ee63, type: 2}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
