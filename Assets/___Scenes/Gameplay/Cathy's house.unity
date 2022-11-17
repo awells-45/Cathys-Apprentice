@@ -236,6 +236,30 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 742619579, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 742619579, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -54.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 742619579, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8191521
+      objectReference: {fileID: 0}
+    - target: {fileID: 742619579, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5735764
+      objectReference: {fileID: 0}
+    - target: {fileID: 742619579, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 742619579, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 289229582092614452, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -492,10 +516,6 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 5048340312061612912, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 4585b83c7f522d549ae1cb16a2a2fa19, type: 3}
     - target: {fileID: 5048340312075345792, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -658,15 +678,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5048340312890374064, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.28
+      value: -26.3
       objectReference: {fileID: 0}
     - target: {fileID: 5048340312890374064, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.447985
+      value: -15.078932
       objectReference: {fileID: 0}
     - target: {fileID: 5048340312890374064, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -61.871067
+      value: -61.671066
       objectReference: {fileID: 0}
     - target: {fileID: 5048340312890374064, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_LocalRotation.w
@@ -686,15 +706,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5048340312953149658, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.28
+      value: -26.3
       objectReference: {fileID: 0}
     - target: {fileID: 5048340312953149658, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.447985
+      value: -15.078932
       objectReference: {fileID: 0}
     - target: {fileID: 5048340312953149658, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -61.871067
+      value: -61.671066
       objectReference: {fileID: 0}
     - target: {fileID: 5048340312953149658, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1612,6 +1632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   locationHandler: {fileID: 1678100733}
   location: Mystic Woods
+  isPortal: 0
 --- !u!1 &2091441620 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7166699941064899401, guid: cdc66cc1aed5ff843b59120468e96c3e, type: 3}
