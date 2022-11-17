@@ -8675,10 +8675,10 @@ MonoBehaviour:
   prevButton: {fileID: 5048340313127081097}
   nextButton: {fileID: 5048340313015577294}
   tutorialImage: {fileID: 5048340311099547969}
-  tutImage0: {fileID: 21300000, guid: 6d8c3e9a5b8b46c438ee97ecf9fd5069, type: 3}
-  tutImage1: {fileID: 21300000, guid: 8b98a1430bd9b0244a11b42715ba6618, type: 3}
-  tutImage2: {fileID: 21300000, guid: 3ea0bbc51258236438253edab42e6a33, type: 3}
-  tutImage3: {fileID: 21300000, guid: 9dd2b108d610dda4fb822492a28993f4, type: 3}
+  tutImage0: {fileID: 21300000, guid: 12b03f7fd4cb03847bc6d34734de54d1, type: 3}
+  tutImage1: {fileID: 21300000, guid: 9cf5fc38923f25245b25b83fe94a7c51, type: 3}
+  tutImage2: {fileID: 21300000, guid: ab42f88de850f0a4d826a9aa701ce825, type: 3}
+  tutImage3: {fileID: 21300000, guid: 7131004795eb05043ac1fa6dd100a2d7, type: 3}
 --- !u!1 &5048340312854256205
 GameObject:
   m_ObjectHideFlags: 0
