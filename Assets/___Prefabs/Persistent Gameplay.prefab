@@ -4297,11 +4297,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapImage: {fileID: 1950220636514039828}
-  defaultMap: {fileID: 21300000, guid: 38753a5172c847745bd868eb2e57ebcd, type: 3}
-  mysticWoodsMap: {fileID: 21300000, guid: bae4cc89b6672d44e850d3fe2f5983ab, type: 3}
-  irishMeadowsMap: {fileID: 21300000, guid: 5ce33a7991183fd4d9de8b7dbb262837, type: 3}
-  wishingWellMap: {fileID: 21300000, guid: 8c85a8eef5add0e4ebbe543b23049175, type: 3}
-  fairyGardensMap: {fileID: 21300000, guid: fff3148f6e494ef41af1c66ee4a3571e, type: 3}
+  defaultMap: {fileID: 21300000, guid: e224dc12a7baa284d8b6fcb3aa0bae22, type: 3}
+  mysticWoodsMap: {fileID: 21300000, guid: a7829fbff99ccab4083e2716b7670e57, type: 3}
+  irishMeadowsMap: {fileID: 21300000, guid: 3596e0fdcd9d51a4ba87cabdd0cea0a0, type: 3}
+  wishingWellMap: {fileID: 21300000, guid: 3ab7b12085747604e8c715563d629f90, type: 3}
+  fairyGardensMap: {fileID: 21300000, guid: 07eacac6c9c5da74297b1bf5c0a84a29, type: 3}
 --- !u!1 &5048340311489407910
 GameObject:
   m_ObjectHideFlags: 0
@@ -10734,9 +10734,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 38753a5172c847745bd868eb2e57ebcd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e224dc12a7baa284d8b6fcb3aa0bae22, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
