@@ -28,23 +28,23 @@ public class LocationHandler : MonoBehaviour
             
             if (lastLocation.Equals("Cathy's House"))
             {
-                GoToPosition(-28.9f, -22.73778f, -10.6f, 160.0f);
+                GoToPosition(-17.3f, -22.73778f, -42.16f, 162.6f);
             }
             else if (lastLocation.Equals("Fairy Gardens"))
             {
-                GoToPosition(-120.0f, -22.73778f, -28.0f, 72.0f);
+                GoToPosition(-40.0f, -22.73778f, -84.7f, 65.8f);
             }
             else if (lastLocation.Equals("Wishing Well"))
             {
-                GoToPosition(-6.6f, -22.73778f, -80.0f, -17.409f);
+                GoToPosition(-7.079504f, -22.73778f, -73.196f, -14.3f);
             }
             else if (lastLocation.Equals("Irish Meadows"))
             {
-                GoToPosition(53.1111f, -22.73778f, 24.83964f, -115.0f);
+                GoToPosition(19.9f, -22.73778f, -47.2f, -108.5f);
             }
             else // coming from the menus
             {
-                GoToPosition(-19.5f, -22.73778f, -41.3f, -17.409f);
+                GoToPosition(-7.079504f, -22.73778f, -73.196f, -14.3f);
             }
         }
 

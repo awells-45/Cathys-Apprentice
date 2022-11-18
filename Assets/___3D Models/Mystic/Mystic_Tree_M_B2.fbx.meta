@@ -3,9 +3,34 @@ guid: 15bcf85dc6e9fee4db70f1ee336ca82f
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Leaf2_1
+    second: {fileID: 2100000, guid: 5553d021c4d3a3a4ab24a9dfe54b7c60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Leaf2_2
+    second: {fileID: 2100000, guid: e564d50aafdc83e4cbe0cb5a112f653d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Leaf2_3
+    second: {fileID: 2100000, guid: d4d4a29455c83a84e9f97374a44d4982, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Leaf2_4
+    second: {fileID: 2100000, guid: 315a448781f6d6d4dabb4fee083c5adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Trunk3
+    second: {fileID: 2100000, guid: 528b3e8561b280745bd31c2dba1c46e2, type: 2}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -37,7 +62,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
