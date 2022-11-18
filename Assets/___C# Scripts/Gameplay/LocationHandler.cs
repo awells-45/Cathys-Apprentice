@@ -21,12 +21,13 @@ public class LocationHandler : MonoBehaviour
 
     void Start()
     {
-        string currSceneName = SceneManager.GetActiveScene().name;
-        if (currSceneName.Equals("Mystic Woods"))
+        if (SceneManager.GetActiveScene().buildIndex == 2) // Mystic Woods
         {
             string lastLocation = PlayerPrefs.GetString("prevLocation", "none");
             
-            if (lastLocation.Equals("Cathy's House"))
+            Debug.Log(lastLocation);
+            
+            if (lastLocation.Equals("Cathy's house"))
             {
                 GoToPosition(-17.3f, -22.73778f, -42.16f, 162.6f);
             }
@@ -54,7 +55,7 @@ public class LocationHandler : MonoBehaviour
             PlayerPrefs.SetInt("wentThroughPortal", 0);
             PlayerPrefs.Save();
         }
-        SetLocationText(currSceneName);
+        SetLocationText(SceneManager.GetActiveScene().name);
         loadingScreen.SetActive(false);
     }
 
