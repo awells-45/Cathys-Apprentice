@@ -20,9 +20,14 @@ public class InputHandler : MonoBehaviour
     public static OnInput OnLeftPress;
     public static OnInput OnRightPress;
     public static OnInput OnEscPress;
+    public static OnInput AnyKeyPress;
 
     void Update()
     {
+        if (Input.anyKey)
+        {
+            AnyKeyPress?.Invoke();
+        }
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
             OnUpPress?.Invoke();
