@@ -16,9 +16,8 @@ public class CharacterEntryRunner : TextPlayer
     public BadWordChecker badWordChecker;
 
     private string _welcomeText = "Hello there, and welcome to Cathy's Apprentice! You've come to the right place.";
-    private string _goodbyeText = "Good choice! That's all I need for now. I'll see you in there...Buh bye!";
-    private string _nameEntryInstructions = "First things first...what is your name?";
-    private string _characterSelectionInstructions = "Hi NAME! It's nice to meet you! I can't quite see what you look like. Feel free to choose a character below!";
+    private string _goodbyeText = "Good choice! That's all I need for now. I'll see you later... Buh bye!";
+    private string _nameEntryInstructions = "First things first... what is your name?";
 
     private IEnumerator _textPlayer = null;
 
@@ -71,7 +70,8 @@ public class CharacterEntryRunner : TextPlayer
                 break;
             case 2:
                 DisableScreens();
-                PlayText(_characterSelectionInstructions);
+                string characterSelectionInstructions = "Hi " + PlayerPrefs.GetString("playerName", "player") + "! It's nice to meet you! I can't quite see what you look like. Feel free to choose a character below!";
+                PlayText(characterSelectionInstructions);
                 charModelSelect.SetActive(true);
                 break;
             case 3:
