@@ -12,12 +12,13 @@ public class CharacterEntryRunner : TextPlayer
     public TMP_Text textBox;
     public GameObject nameEntry;
     public GameObject charModelSelect;
+    public GameObject clickToContinuePrompt;
     public BadWordChecker badWordChecker;
 
     private string _welcomeText = ".....";
     private string _goodbyeText = "Alright, that's all I need for now. Buh bye!";
     private string _nameEntryInstructions = "What is your name?";
-    private string _characterSelectionInstructions = "I can't quit see you from here. What do you look like?";
+    private string _characterSelectionInstructions = "I can't quite see you from here. What do you look like?";
 
     private IEnumerator _textPlayer = null;
 
@@ -32,15 +33,15 @@ public class CharacterEntryRunner : TextPlayer
 
     private void OnEnable()
     {
-        InputHandler.OnLeftClick += OnReceiveLeftClick;
+        InputHandler.AnyKeyPress += OnReceiveKeyPress;
     }
 
     private void OnDisable()
     {
-        InputHandler.OnLeftClick -= OnReceiveLeftClick;
+        InputHandler.AnyKeyPress -= OnReceiveKeyPress;
     }
 
-    void OnReceiveLeftClick()
+    void OnReceiveKeyPress()
     {
         if ((_stateNum == 0) || (_stateNum == 3))
         {
@@ -60,6 +61,7 @@ public class CharacterEntryRunner : TextPlayer
         {
             case 0:
                 DisableScreens();
+                clickToContinuePrompt.SetActive(true);
                 PlayText(_welcomeText);
                 break;
             case 1:
@@ -74,6 +76,7 @@ public class CharacterEntryRunner : TextPlayer
                 break;
             case 3:
                 DisableScreens();
+                clickToContinuePrompt.SetActive(true);
                 PlayText(_goodbyeText);
                 break;
             default: // and case 4
@@ -138,6 +141,7 @@ public class CharacterEntryRunner : TextPlayer
         loadingScreen.SetActive(false);
         nameEntry.SetActive(false);
         charModelSelect.SetActive(false);
+        clickToContinuePrompt.SetActive(false);
     }
 
     bool DoesNameContainProfanity(string nameToCheck)
