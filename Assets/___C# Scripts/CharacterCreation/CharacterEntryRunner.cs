@@ -15,10 +15,10 @@ public class CharacterEntryRunner : TextPlayer
     public GameObject clickToContinuePrompt;
     public BadWordChecker badWordChecker;
 
-    private string _welcomeText = ".....";
-    private string _goodbyeText = "Alright, that's all I need for now. Buh bye!";
-    private string _nameEntryInstructions = "What is your name?";
-    private string _characterSelectionInstructions = "I can't quite see you from here. What do you look like?";
+    private string _welcomeText = "Hello there, and welcome to Cathy's Apprentice! You've come to the right place.";
+    private string _goodbyeText = "Good choice! That's all I need for now. I'll see you in there...Buh bye!";
+    private string _nameEntryInstructions = "First things first...what is your name?";
+    private string _characterSelectionInstructions = "Hi NAME! It's nice to meet you! I can't quite see what you look like. Feel free to choose a character below!";
 
     private IEnumerator _textPlayer = null;
 
