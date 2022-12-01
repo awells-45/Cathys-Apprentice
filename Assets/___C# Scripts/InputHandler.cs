@@ -48,27 +48,27 @@ public class InputHandler : MonoBehaviour
             OnRightPress?.Invoke();
         }
         
-        if (Input.GetKey(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             OnPPress?.Invoke();
         }
         
-        if (Input.GetKey(KeyCode.B))
+        if (Input.GetKeyDown(KeyCode.B))
         {
             OnBPress?.Invoke();
         }
         
-        if (Input.GetKey(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M))
         {
             OnMPress?.Invoke();
         }
         
-        if (Input.GetKey(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.H))
         {
             OnHPress?.Invoke();
         }
 
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             OnEscPress?.Invoke();
         }
