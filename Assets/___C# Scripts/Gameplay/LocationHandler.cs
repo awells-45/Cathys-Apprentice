@@ -6,7 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-//https://stackoverflow.com/questions/60189192/check-if-a-gameobject-has-been-assigned-in-the-inspector-in-unity3d-2019-3-05f
+// https://stackoverflow.com/questions/60189192/check-if-a-gameobject-has-been-assigned-in-the-inspector-in-unity3d-2019-3-05f
 // https://subscription.packtpub.com/book/game-development/9781800207806/12/ch12lvl1sec32/using-try-catch
 
 public class LocationHandler : MonoBehaviour
@@ -15,6 +15,8 @@ public class LocationHandler : MonoBehaviour
     public GameObject loadingScreen;
     public GameObject player;
     public CharacterController characterController;
+    public GameObject inventory;
+    public GameObject inventoryText;
     public AudioClip portalSound1;
     public AudioClip portalSound2;
     public AudioSource soundSource;
@@ -57,10 +59,12 @@ public class LocationHandler : MonoBehaviour
         }
         SetLocationText(SceneManager.GetActiveScene().name);
         loadingScreen.SetActive(false);
+        SetInventoryActivity(true);
     }
 
     public void GoToLocation(string location)
     {
+        SetInventoryActivity(false);
         loadingScreen.SetActive(true);
         PlayerPrefs.SetString("prevLocation", SceneManager.GetActiveScene().name);
         PlayerPrefs.Save();
@@ -104,6 +108,15 @@ public class LocationHandler : MonoBehaviour
             {
                 Debug.Log("No sound source");
             }
+        }
+    }
+
+    void SetInventoryActivity(bool active)
+    {
+        if ((inventory != null) && (inventoryText != null))
+        {
+            inventory.SetActive(active);
+            inventoryText.SetActive(active);
         }
     }
 }
