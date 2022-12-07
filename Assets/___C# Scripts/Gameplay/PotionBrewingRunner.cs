@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 // https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-7.0
 
@@ -26,6 +27,10 @@ public class PotionBrewingRunner : MonoBehaviour
 
     public InventoryItemData fairyPowderData;
     public InventoryItemData cloverData;
+    
+    public Image Potion;
+    public Image SpoonHitbox;
+    public GameObject Spoon;
 
     private List<Ingredient> _recipe;
     private bool currBrewing = false;
@@ -35,11 +40,6 @@ public class PotionBrewingRunner : MonoBehaviour
         _recipe = new List<Ingredient>();
         _recipe.Add(new Ingredient(fairyPowderData, 2));
         _recipe.Add(new Ingredient(cloverData, 3));
-    }
-
-    private void Start()
-    {
-        //inventoryDisplay.ItemUsed -= ConsumeItem; // initially disable
     }
 
     void OnEnable()
@@ -122,5 +122,16 @@ public class PotionBrewingRunner : MonoBehaviour
             // brewing complete
             // TODO - Do something here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         }
+    }
+
+    void SetPotionColor(int red, int green, int blue)
+    {
+        Potion.color  = new Color(red / 255.0f, green / 255.0f, blue / 255.0f, 1.0f);
+    }
+
+    private void OnMouseDrag()
+    {
+        // move spoon to mouse
+        throw new NotImplementedException();
     }
 }
