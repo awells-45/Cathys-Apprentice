@@ -3,7 +3,12 @@ guid: 2975a5fcbe5834d4bb0c21f25d05d559
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mystic_Rock
+    second: {fileID: 2100000, guid: 03cd34667f1557f4581d953568721097, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

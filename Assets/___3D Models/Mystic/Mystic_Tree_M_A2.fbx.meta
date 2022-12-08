@@ -8,27 +8,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mystic_Leaf1_1
-    second: {fileID: 2100000, guid: e1485c9bf0d62114f9153a682e926936, type: 2}
+    second: {fileID: 2100000, guid: 7dccf68a97e44d94d9811df62af0e88c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mystic_Leaf1_2
-    second: {fileID: 2100000, guid: b0cb29fe8b61983448bedaf6524ca15a, type: 2}
+    second: {fileID: 2100000, guid: 470e95da7ebd99840b96269b5ad8b66d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mystic_Leaf1_3
-    second: {fileID: 2100000, guid: f0da5b0e5f733de43b6eb9e2f18ff007, type: 2}
+    second: {fileID: 2100000, guid: c5af65f80cb6a224daa6f4168622cc04, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mystic_Leaf1_4
-    second: {fileID: 2100000, guid: 249faf272e4ea964dae94e49a6c08998, type: 2}
+    second: {fileID: 2100000, guid: c5974e4bb48f29246819c0d4bee5574f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mystic_Trunk1
-    second: {fileID: 2100000, guid: 78e6b17d3193f484bba2a9a2c2851f65, type: 2}
+    second: {fileID: 2100000, guid: 4d29fd58fa5df4749ac97c392cf55c41, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Grass_Mystic
-    second: {fileID: 2100000, guid: d18e2bc333ceedd43aa4711e0029618f, type: 2}
+    second: {fileID: 2100000, guid: 3110d6fa7c5af2d44b7a5a20cbb2de45, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
