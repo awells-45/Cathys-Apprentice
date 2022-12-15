@@ -47,6 +47,7 @@ public class InventorySlot
 
     public bool RoomLeftInStack(int amountToAdd) //make sure they have the same constructor name
     {
+        if (itemData == null) return true;
         if (stackSize + amountToAdd <= itemData.MaxStackSize) return true;
         else return false; //not enough room
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18186025, g: 0.22753805, b: 0.30742097, a: 1}
+  m_IndirectSpecularColor: {r: 0.1818626, g: 0.22754075, b: 0.30742025, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1950,7 +1950,7 @@ PrefabInstance:
     - target: {fileID: 1928017422, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: Potion
       value: 
-      objectReference: {fileID: 1532238292}
+      objectReference: {fileID: 0}
     - target: {fileID: 1928017422, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: SpoonHitbox
       value: 
@@ -2536,7 +2536,7 @@ PrefabInstance:
     - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556044}
+      objectReference: {fileID: 548556042}
     - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_Name
       value: Fairy_Powder (2)
@@ -2793,7 +2793,7 @@ PrefabInstance:
     - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556044}
+      objectReference: {fileID: 548556042}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5282,17 +5282,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 637d11484b3454e4fa1e99c3e1e9c048, type: 3}
   m_PrefabInstance: {fileID: 2073780746}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &636293656 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8739207395251563737, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-  m_PrefabInstance: {fileID: 256007145}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &640109713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8332,7 +8321,7 @@ PrefabInstance:
     - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556044}
+      objectReference: {fileID: 548556042}
     - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_Name
       value: Fairy_Powder
@@ -8398,7 +8387,7 @@ PrefabInstance:
     - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556044}
+      objectReference: {fileID: 548556042}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -10117,11 +10106,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 637d11484b3454e4fa1e99c3e1e9c048, type: 3}
   m_PrefabInstance: {fileID: 347955910}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1309022121 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6726546446502051919, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-  m_PrefabInstance: {fileID: 256007145}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1319454323
 GameObject:
@@ -12455,17 +12439,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d66fdd381522364581502a36c9e455d, type: 3}
---- !u!114 &1532238289 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3835786855491390437, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-  m_PrefabInstance: {fileID: 256007145}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1537358060 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d1040d50168fdf44fa282c587bda97e6, type: 3}
@@ -14147,7 +14120,7 @@ PrefabInstance:
     - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556044}
+      objectReference: {fileID: 548556042}
     - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_Name
       value: Fairy_Powder (1)
@@ -15207,7 +15180,7 @@ PrefabInstance:
     - target: {fileID: 2035100635419063833, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556044}
+      objectReference: {fileID: 548556042}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
 --- !u!4 &1898820909 stripped
@@ -17347,17 +17320,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b27c55d85da0dd47ad99110aeb6c4d8, type: 3}
---- !u!1 &2144702079 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6726546446502051919, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
-  m_PrefabInstance: {fileID: 256007145}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309022121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f9ca648f5d4cba40bdb9be0d0a64e97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2146550461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17496,7 +17458,7 @@ PrefabInstance:
     - target: {fileID: 2035100635419063833, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556044}
+      objectReference: {fileID: 548556042}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
 --- !u!1001 &6313350963506677162
@@ -17577,6 +17539,6 @@ PrefabInstance:
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: locationHandler
       value: 
-      objectReference: {fileID: 964667214}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00292b0e86630b848842d9732089e787, type: 3}
