@@ -29,11 +29,11 @@ public class PotionBrewingRunner : MonoBehaviour
     public InventoryItemData cloverData;
     
     public Image Potion;
-    public Image SpoonHitbox;
-    public GameObject Spoon;
 
     private List<Ingredient> _recipe;
     private bool currBrewing = false;
+
+    private (int R, int G, int B) [] brightColorList = { (26, 255, 0), (0, 160, 200), (240, 0, 255), (255, 222, 0), (131, 173, 255)};
 
     private void CreateDemoRecipe()
     {
@@ -95,11 +95,17 @@ public class PotionBrewingRunner : MonoBehaviour
 
     void RemoveIngredientFromRecipe(InventoryItemData consumedItem)
     {
+        bool validIngredient = false;
         for (int i = 0; i < _recipe.Count; ++i)
         {
             Ingredient ingredient = _recipe[i];
             if (ingredient.Data.DisplayName.Equals(consumedItem.DisplayName))
             {
+                validIngredient = true;
+                
+                int randColorIndex = UnityEngine.Random.Range(0, brightColorList.Length - 1);
+                SetPotionColor(brightColorList[randColorIndex].R, brightColorList[randColorIndex].G, brightColorList[randColorIndex].B);
+                
                 if (ingredient.Amount > 1)
                 {
                     --ingredient.Amount;
@@ -109,17 +115,21 @@ public class PotionBrewingRunner : MonoBehaviour
                 {
                     _recipe.RemoveAt(i); // remove ingredient from list
                 }
-                else // wrong ingredient
-                {
-                    // TODO - Do something here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                }
                 break;
             }
         }
-        UpdateRecipeText();
-        if ((_recipe.Count < 1) && currBrewing) // no more ingredients and we are brewing
+        
+        if (!validIngredient) // wrong ingredient
         {
-            // brewing complete
+            SetPotionColor(80, 115, 80); // set to a dull color
+            Debug.Log("Wrong ingredient");
+            // TODO - Do something here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        }
+        
+        UpdateRecipeText();
+        if ((_recipe.Count < 1) && currBrewing) // no more ingredients and we are brewing; brewing complete
+        {
+            Debug.Log("Brewing complete");
             // TODO - Do something here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         }
     }
@@ -127,11 +137,5 @@ public class PotionBrewingRunner : MonoBehaviour
     void SetPotionColor(int red, int green, int blue)
     {
         Potion.color  = new Color(red / 255.0f, green / 255.0f, blue / 255.0f, 1.0f);
-    }
-
-    private void OnMouseDrag()
-    {
-        // move spoon to mouse
-        throw new NotImplementedException();
     }
 }

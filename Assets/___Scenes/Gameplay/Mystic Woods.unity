@@ -1907,6 +1907,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 522700656, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 15.300049
+      objectReference: {fileID: 0}
     - target: {fileID: 742619579, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.37
@@ -1931,18 +1935,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -14.3
       objectReference: {fileID: 0}
+    - target: {fileID: 845274731, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 963051340, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1928017422, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: Spoon
       value: 
-      objectReference: {fileID: 2144702079}
+      objectReference: {fileID: 0}
     - target: {fileID: 1928017422, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: Potion
       value: 
-      objectReference: {fileID: 1532238289}
+      objectReference: {fileID: 1532238292}
     - target: {fileID: 1928017422, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: SpoonHitbox
       value: 
-      objectReference: {fileID: 636293656}
+      objectReference: {fileID: 0}
     - target: {fileID: 133975795069376865, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: speed
       value: 5.8
@@ -2010,6 +2022,10 @@ PrefabInstance:
     - target: {fileID: 1330038122793903056, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356211235674067393, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1415018115028551662, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2275,6 +2291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Persistent Gameplay
       objectReference: {fileID: 0}
+    - target: {fileID: 5480142007480301715, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6364487577805484940, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2443,6 +2463,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8739207395251563737, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78039217
+      objectReference: {fileID: 0}
     - target: {fileID: 9114788638888835649, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2512,7 +2536,7 @@ PrefabInstance:
     - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556042}
+      objectReference: {fileID: 548556044}
     - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_Name
       value: Fairy_Powder (2)
@@ -2769,7 +2793,7 @@ PrefabInstance:
     - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556042}
+      objectReference: {fileID: 548556044}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5600,6 +5624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampost (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6474f04af021a743983f654b7752929, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d66fdd381522364581502a36c9e455d, type: 3}
 --- !u!1001 &673226160
@@ -8304,7 +8332,7 @@ PrefabInstance:
     - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556042}
+      objectReference: {fileID: 548556044}
     - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_Name
       value: Fairy_Powder
@@ -8370,7 +8398,7 @@ PrefabInstance:
     - target: {fileID: 351813319, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556042}
+      objectReference: {fileID: 548556044}
     - target: {fileID: 6191424996508662777, guid: 5459d67ede2b42440bcc813114872893, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -10089,6 +10117,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 637d11484b3454e4fa1e99c3e1e9c048, type: 3}
   m_PrefabInstance: {fileID: 347955910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1309022121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6726546446502051919, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+  m_PrefabInstance: {fileID: 256007145}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1319454323
 GameObject:
@@ -14114,7 +14147,7 @@ PrefabInstance:
     - target: {fileID: 1012676070, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556042}
+      objectReference: {fileID: 548556044}
     - target: {fileID: 1672035814059002554, guid: ddbf5c3146c5af441884d54fe3c69c18, type: 3}
       propertyPath: m_Name
       value: Fairy_Powder (1)
@@ -15174,7 +15207,7 @@ PrefabInstance:
     - target: {fileID: 2035100635419063833, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556042}
+      objectReference: {fileID: 548556044}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
 --- !u!4 &1898820909 stripped
@@ -17319,6 +17352,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6726546446502051919, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
   m_PrefabInstance: {fileID: 256007145}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309022121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9ca648f5d4cba40bdb9be0d0a64e97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2146550461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17457,7 +17496,7 @@ PrefabInstance:
     - target: {fileID: 2035100635419063833, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
       propertyPath: PickupSound
       value: 
-      objectReference: {fileID: 548556042}
+      objectReference: {fileID: 548556044}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3e79a3ac94f754f8720369a0907b8a, type: 3}
 --- !u!1001 &6313350963506677162
@@ -17538,6 +17577,6 @@ PrefabInstance:
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: locationHandler
       value: 
-      objectReference: {fileID: 1264875656}
+      objectReference: {fileID: 964667214}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00292b0e86630b848842d9732089e787, type: 3}
