@@ -254,8 +254,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Enter Character Name Here...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a8c55b62425065b4e81edd3069dc1f4e, type: 2}
-  m_sharedMaterial: {fileID: -377663732965715721, guid: a8c55b62425065b4e81edd3069dc1f4e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a002aed40a992bb45ae70aea95263f8f, type: 2}
+  m_sharedMaterial: {fileID: 3440371830652204829, guid: a002aed40a992bb45ae70aea95263f8f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -554,7 +554,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &376445510
@@ -709,7 +709,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 0
-  m_GlobalFontAsset: {fileID: 11400000, guid: a8c55b62425065b4e81edd3069dc1f4e, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: a002aed40a992bb45ae70aea95263f8f, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_RestoreOriginalTextOnEscape: 1
@@ -814,8 +814,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a8c55b62425065b4e81edd3069dc1f4e, type: 2}
-  m_sharedMaterial: {fileID: -377663732965715721, guid: a8c55b62425065b4e81edd3069dc1f4e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a002aed40a992bb45ae70aea95263f8f, type: 2}
+  m_sharedMaterial: {fileID: 3440371830652204829, guid: a002aed40a992bb45ae70aea95263f8f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
