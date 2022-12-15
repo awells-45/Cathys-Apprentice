@@ -869,6 +869,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 773094cade50e8548b16edd2125ebf75, type: 2}
+    - target: {fileID: 6842573197727957097, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 39f6feebe568ebc46b986f8a9c516925, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00292b0e86630b848842d9732089e787, type: 3}
 --- !u!4 &118291145 stripped
@@ -8667,6 +8671,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.73541296
       objectReference: {fileID: 0}
+    - target: {fileID: 23315473612960442, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6313350962750575928, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: m_Name
       value: Portal - Irish Meadows
@@ -8731,6 +8739,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 223792ec29f27854e9c6736e76ee8514, type: 2}
+    - target: {fileID: 6842573197727957097, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 39f6feebe568ebc46b986f8a9c516925, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00292b0e86630b848842d9732089e787, type: 3}
 --- !u!1001 &1115607884
@@ -13955,7 +13967,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17548,6 +17560,10 @@ PrefabInstance:
     - target: {fileID: 6313350962750575933, guid: 00292b0e86630b848842d9732089e787, type: 3}
       propertyPath: locationHandler
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1264875656}
+    - target: {fileID: 6842573197727957097, guid: 00292b0e86630b848842d9732089e787, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 39f6feebe568ebc46b986f8a9c516925, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00292b0e86630b848842d9732089e787, type: 3}

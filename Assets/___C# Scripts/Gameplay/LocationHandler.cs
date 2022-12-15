@@ -35,7 +35,7 @@ public class LocationHandler : MonoBehaviour
             }
             else if (lastLocation.Equals("Fairy Gardens"))
             {
-                GoToPosition(-40.0f, -22.73778f, -84.7f, 65.8f);
+                GoToPosition(-26.01f, -22.723f, -71.07f, 72.6f);
             }
             else if (lastLocation.Equals("Wishing Well"))
             {
