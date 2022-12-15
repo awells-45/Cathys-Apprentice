@@ -2243,6 +2243,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5048340312981543842, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+      propertyPath: questUI
+      value: 
+      objectReference: {fileID: 1297773224}
     - target: {fileID: 5048340313106107774, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10097,6 +10101,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 637d11484b3454e4fa1e99c3e1e9c048, type: 3}
+--- !u!1 &1297773224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 360857528092681475, guid: 61a97e87265aa2d49b2406259b143b87, type: 3}
+  m_PrefabInstance: {fileID: 256007145}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1299964901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bc950408098fdb749a59c5764bb20215, type: 3}
